@@ -283,7 +283,7 @@ section .dokter {
 
     .posyandu p {
         text-align: left;
-        font-size: 16px;
+        font-size: 14px;
     }
     
     .posyandu p span {
@@ -311,7 +311,7 @@ section .dokter {
         height: 300px;
         border-radius: 30px;
         margin-bottom: 15px;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .card img {
