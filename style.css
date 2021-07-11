@@ -166,7 +166,7 @@
     margin-top: 79px;
     background-image: url(img/6.jpg);
     background-size: cover;
-    height: 630px;
+    height: 530px;
 }
 
 .my-jumbotron-4 .display-4 {
@@ -174,11 +174,16 @@
 }
 
 .my-jumbotron-4 .card {
-    height: 430px;
+    height: 330px;
 }
 
 .table thead {
     border-bottom: 3px solid #eee;
+}
+
+.table tbody {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 9px;
 }
 
 
@@ -362,11 +367,16 @@ section .dokter {
         margin-top: 210px;
         background-image: url(img/6.jpg);
         background-size: cover;
-        height: 580px;
+        height: 680px;
     }
 
     .my-jumbotron-4 .display-4 {
         margin-top: -10px !important;
+    }
+
+    .table tbody {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 16px;
     }
 
     section {
