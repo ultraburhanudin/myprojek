@@ -73,7 +73,7 @@
 
 .posyandu img {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
@@ -300,7 +300,7 @@ section .dokter {
     .my-jumbotron-2 {
         background-image: url(img/6.jpg);
         background-size: cover;
-        height: 510px;
+        height: 490px;
     }
 
     .my-jumbotron-2 h3 {
@@ -367,16 +367,21 @@ section .dokter {
         margin-top: 210px;
         background-image: url(img/6.jpg);
         background-size: cover;
-        height: 680px;
+        height: 575px;
     }
 
     .my-jumbotron-4 .display-4 {
         margin-top: -10px !important;
     }
 
+    .table thead {
+        border-bottom: 3px solid #eee;
+        font-size: 16px;
+    }
+
     .table tbody {
         font-family: 'Noto Sans', sans-serif;
-        font-size: 16px;
+        font-size: 15px;
     }
 
     section {
