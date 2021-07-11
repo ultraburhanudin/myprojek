@@ -1,0 +1,398 @@
+.navbar-brand {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    margin-right: auto;
+    margin-left: 3px;
+}
+
+.nav-link {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.my-jumbotron-1 {
+    background-image: url(img/4.png);
+    background-size: cover;
+    height: 450px;
+}
+
+.my-jumbotron-1 .display-4 {
+    margin-top: 80px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.my-jumbotron-1 p {
+    margin-top: 35px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+.my-jumbotron-1 p span {
+    font-weight: bold;
+}
+
+.logo {
+    width: 60px;
+}
+
+.posyandu {
+    height: 700px;
+}
+
+.posyandu h3 {
+    color: rgb(69, 172, 206);
+    font-weight: 400;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.posyandu h3 span {
+    font-weight: 600;
+}
+
+.hr-posyandu {
+    border: 1px solid rgb(69, 172, 206);
+    width: 270px;
+    margin-top: -1px;
+    margin-bottom: 20px;
+}
+
+.posyandu p {
+    text-align: justify;
+    font-size: 14px;
+
+}
+
+.posyandu p span {
+    font-weight: bold;
+}
+
+.posyandu img {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.my-jumbotron-2 {
+    background-image: url(img/6.jpg);
+    background-size: cover;
+    height: 750px;
+}
+
+.my-jumbotron-2 h3 {
+    text-align: center;
+    color: rgb(69, 172, 206);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.my-jumbotron-2 h3 span {
+    font-weight: 600;
+}
+
+.hr-manfaat {
+    margin: auto;
+    margin-top: -2px;
+    border: 1px solid rgb(69, 172, 206);
+    width: 270px;
+    margin-bottom: 30px;
+}
+
+.card {
+    border-radius: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.card img {
+    background-color: rgb(38, 154, 226);
+    width: 60px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.my-jumbotron-3 {
+    height: 480px;
+    margin-top: -32px;
+    background-color: white;
+}
+
+.my-jumbotron-3 h3 {
+    color: rgb(69, 172, 206);
+    font-weight: 400;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 10px !important;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 25px;
+}
+
+.my-jumbotron-3 span {
+    font-weight: 600;
+}
+
+.alert {
+    width: 100%;
+    border-radius: 15px;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.hr-layanan {
+    margin-top: -2px;
+    border: 1px solid rgb(69, 172, 206);
+    width: 270px;
+    margin-bottom: 30px;
+}
+
+.tombol {
+    border-radius: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.my-jumbotron-4 {
+    margin-top: 79px;
+    background-image: url(img/6.jpg);
+    background-size: cover;
+    height: 550px;
+}
+
+.my-jumbotron-4 .display-4 {
+    margin-top: -1px !important;
+}
+
+.my-jumbotron-4 .card {
+    height: 320px;
+}
+
+.table thead {
+    border-bottom: 3px solid #eee;
+}
+
+
+section {
+    height: 1300px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+section .nama {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+section .dokter {
+    margin-top: -18px;
+    font-size: 14px;
+}
+
+.my-footer {
+    width: 100%;
+    height: 60px;
+    background-color: lightblue;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+}
+
+.my-footer p {
+    margin-top: 19px;
+}
+
+
+/* Dekstop Version */
+@media (min-width: 992px) {
+    .navbar-brand {
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Noto Sans', sans-serif;
+        margin-left: 6px;
+    }
+
+    .nav-link {
+        font-family: 'Noto Sans', sans-serif;
+        margin-right: 35px;
+        color: black !important;
+        text-transform: uppercase;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid black;
+        padding-bottom: 3px;
+        margin-bottom: -6px;
+    }
+
+    .my-jumbotron-1 {
+        background-image: url(img/1.jpg);
+        background-size: cover;
+        height: 600px;
+        margin-top: -81px;
+    }
+
+    .my-jumbotron-1 .display-4 {
+        margin-top: 120px;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 46px;
+        font-weight: 600;
+    }
+
+    .my-jumbotron-1 p {
+        margin-top: 25px;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 25px;
+    }
+
+    .posyandu {
+        height: 470px;
+    }
+
+    .hr-posyandu {
+        margin-left: 0;
+        width: 230px;
+    }
+    
+    .posyandu h3 {
+        color: rgb(69, 172, 206);
+        font-weight: 400;
+        font-family: 'Noto Sans', sans-serif;
+        margin-top: 40px;
+        text-align: left;
+    }
+    
+    .posyandu h3 span {
+        font-weight: 600;
+    }
+
+    .posyandu p {
+        text-align: left;
+        font-size: 16px;
+    }
+    
+    .posyandu p span {
+        font-weight: bold;
+    }
+    
+    .posyandu img {
+        width: 400px;
+        margin-top: 80px;
+        margin-left: 50px;
+        height: 285px;
+    }
+
+    .my-jumbotron-2 {
+        background-image: url(img/6.jpg);
+        background-size: cover;
+        height: 510px;
+    }
+
+    .my-jumbotron-2 h3 {
+        margin-top: -10px;
+    }
+
+    .card {
+        height: 300px;
+        border-radius: 30px;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .card img {
+        background-color: rgb(38, 154, 226);
+        width: 80px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+
+    .card .gizi {
+        margin-top: 13px;
+    }
+
+    .my-jumbotron-3 {
+        background-image: url(img/3.png);
+        background-size: cover;
+        height: 610px;
+        margin-top: 5px;
+        background-color: white;
+    }
+
+    .my-jumbotron-3 h3 {
+        color: rgb(69, 172, 206);
+        font-weight: 400;
+        font-family: 'Noto Sans', sans-serif;
+        margin-top: 40px;
+        text-align: left;
+        text-align: right;
+        margin-top: -10px;
+    }
+
+    .hr-layanan {
+        margin-bottom: 30px;
+        margin-right: 0;
+        width: 250px;
+    }
+
+    .alert {
+        width: 450px;
+        border-radius: 15px;
+        color: black;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: bold;
+        margin-left: auto;
+        font-size: 16px;
+    }
+
+    .tombol {
+        font-size: 15px;
+    }
+
+    .my-jumbotron-4 {
+        margin-top: 210px;
+        background-image: url(img/6.jpg);
+        background-size: cover;
+        height: 580px;
+    }
+
+    .my-jumbotron-4 .display-4 {
+        margin-top: -10px !important;
+    }
+
+    section {
+        height: 550px;
+    }
+
+    section .display-4 {
+        margin-top: 50px !important;
+    }
+    
+    section .nama {
+        font-size: 16px;
+    }
+    
+    section .dokter {
+        font-size: 16px;
+    }
+
+    .my-footer {
+        width: 100%;
+        height: 60px;
+        background-color: lightblue;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 16px;
+    }
+    
+    
+
+}
