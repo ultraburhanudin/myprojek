@@ -356,11 +356,11 @@ section .dokter {
         font-family: 'Noto Sans', sans-serif;
         font-weight: bold;
         margin-left: auto;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .tombol {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .my-jumbotron-4 {
@@ -393,11 +393,11 @@ section .dokter {
     }
     
     section .nama {
-        font-size: 16px;
+        font-size: 14px;
     }
     
     section .dokter {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .my-footer {
@@ -405,7 +405,7 @@ section .dokter {
         height: 60px;
         background-color: lightblue;
         font-family: 'Noto Sans', sans-serif;
-        font-size: 16px;
+        font-size: 14px;
     }
     
     
