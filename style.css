@@ -38,7 +38,7 @@
 }
 
 .posyandu {
-    height: 900px;
+    height: 660px;
 }
 
 .posyandu h3 {
@@ -80,7 +80,7 @@
 .my-jumbotron-2 {
     background-image: url(img/6.jpg);
     background-size: cover;
-    height: 750px;
+    height: 770px;
 }
 
 .my-jumbotron-2 h3 {
@@ -166,7 +166,7 @@
     margin-top: 79px;
     background-image: url(img/6.jpg);
     background-size: cover;
-    height: 550px;
+    height: 630px;
 }
 
 .my-jumbotron-4 .display-4 {
@@ -174,7 +174,7 @@
 }
 
 .my-jumbotron-4 .card {
-    height: 320px;
+    height: 430px;
 }
 
 .table thead {
@@ -203,7 +203,7 @@ section .dokter {
     height: 60px;
     background-color: lightblue;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .my-footer p {
