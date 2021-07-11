@@ -203,7 +203,7 @@ section .dokter {
     height: 60px;
     background-color: lightblue;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .my-footer p {
